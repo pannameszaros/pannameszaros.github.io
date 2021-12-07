@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Mészáros Panna-Zsuzsa - PORTFOLIÓ</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https.//fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header class="header">
+		<nav>
+			<a href="index.html"><img src="kepek/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">KEZDŐLAP</a></li>
+					<li><a href="aboutme.html">RÓLAM</a></li>
+					<li><a href="myworks.html">MUNKÁIM</a></li>
+					<li><a href="documentation.html">DOKUMENTÁCIÓ</a></li>
+				</ul>
+				
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+	</header>
+
+
+<section class="aboutme">
+	<h1>RÓLAM</h1>
+	<p>Mészáros Panna-Zsuzsa</p>
+	
+	<div class="flex">
+		<div class="item-aboutme">
+			<h3>Bemutatkozás</h3>
+			<p>Hegyközcsatárban születtem, illetve nőttem fel, egy község, Nagyvárad mellett. Tanulmányaimat otthon kezdtem, majd Nagyváradon folytattam. Matematika-Informatika Intenzív Informatika szakon tanultam a gimnáziumban, emellett több képzőművészeti képzést is elvégeztem. Jelenleg a Budapesti Műszaki és Gazdaságtudományi Egyetem Ipari termék- és formatervező mérnöki szakán tanulok.</p>
+			
+		</div>
+		<div class="item-aboutme">
+			<h3>Néhány szó a rajzolásról</h3>
+			<p>Már gyerekkoromban is nagyon szerettem rajzokat, festményeket készíteni. Azóta elvégeztem egy 3 éves festészet és szobrászat illetve egy 3 és grafika szakot a Francisc Hubic Művészeti Iskolában. Mostanra már kellő elhivatottsággal, nagy türelemmel és kreativitással kezdek hozzá a munkáimhoz. Számos kiállításon is részt vettek már a munkáim. Alkotásaimmal próbálom megmutatni az emberekkel, hogy hogyan is látom én a világot.</p>
+
+			
+		</div>
+		<div class="item-aboutme">
+			<h3>Elérhetőségek</h3>
+			<p>Elérhetőség:
+				Mészáros Panna-Zsuzsa
+				@pannameszaros | 
+				panna.meszaros01@gmail.com
+				Budapest
+			</p>
+			
+		</div>
+	</div>
+</section>
+
+
+
+
+<!---------JavaScript for Toggle Menu--------->
+<script>
+	var navLinks = document.getElementById("navLinks");
+
+	function showMenu(){
+		navLinks.style.display = "block";
+	}
+	function hideMenu(){
+		navLinks.style.display = "none";
+	}
+</script>
+
+</body>
+</html>

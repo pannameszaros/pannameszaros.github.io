@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Mészáros Panna-Zsuzsa - PORTFOLIÓ</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https.//fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header class="header">
+		<nav>
+			<a href="index.html"><img src="kepek/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">KEZDŐLAP</a></li>
+					<li><a href="aboutme.html">RÓLAM</a></li>
+					<li><a href="myworks.html">MUNKÁIM</a></li>
+					<li><a href="documentation.html">DOKUMENTÁCIÓ</a></li>
+				</ul>
+				
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+	</header>
+
+
+<section class="documentation">
+	<h1>HOGYAN KÉSZÜLT</h1>
+	<p>Dokumantáció</p>
+
+	<div class="flex">
+		<div class="item-documentation">
+			<!--<img src="kepek/5.jpeg">-->
+			<h3>CÉL</h3>
+			<p>A tervezés során a célom egy jól átlátható, könnyen kezelhető? kicsit élénkebb weboldal készítése volt, ami tükröz engem.</p>
+		</div>
+		<div class="item-documentation">
+			<!--<img src="kepek/9.jpeg">-->
+			<h3>A tervezési folyamat</h3>
+			<P>Néha el kellett térnem az eredeti tevtől, hiszen túl nehéznek bizonyult számomra. Nehézséget az okozott a leginkább, hogy az elvárásaimnak megfeleljen. Sosem voltam kellően elégedett a munkámmal. Illetve néha a nyelv ismeret hiánya.</P>
+		</div>
+		<div class="item-documentation">
+			<!--<img src="kepek/22.jpeg">-->
+			<h3>Felhasznált tartalmak</h3>
+			<P>w3schools.com | youtube.com</P>
+		</div>
+	</div>
+</section>
+
+
+
+
+<!---------JavaScript for Toggle Menu--------->
+<script>
+	var navLinks = document.getElementById("navLinks");
+
+	function showMenu(){
+		navLinks.style.display = "block";
+	}
+	function hideMenu(){
+		navLinks.style.display = "none";
+	}
+</script>
+
+</body>
+</html>
